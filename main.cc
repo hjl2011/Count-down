@@ -1,27 +1,26 @@
 /*
     Author : hjl2011
-    Version : 1.2.7-alpha
+    Version : 1.3.0-alpha
     Date : 2022-04-22
+
+    -- 尝试兼容 Linux
+      : windows.h -> unistd.h
 */
 #include <stdio.h>
 #include <string>
-#include <windows.h>
+#include <unistd.h>
 using std::string;
 char msg[10005];
-class Time {
-    private:
-        int h;
-        int m;
-        int s;
-    public:
-    Time(int hour,int min,int sec) {
+struct time {
+    int h,m,s;
+    time(int hour,int min,int sec) {
         h = hour;
         m = min;
         s = sec;
     }
     void clock() {
         while(h || m || s) {
-            Sleep(998);
+            sleep(1);
             if(--s < 0) {
                 s = 59;
                 if(--m < 0) m = 59,--h;
@@ -47,7 +46,7 @@ int main() {
     }
     CONSOLE_CURSOR_INFO cursor_info = {1,0}; 
     SetConsoleCursorInfo(GetStdHandle(STD_OUTPUT_HANDLE),&cursor_info);
-    Time x(0,5,0);
+    time x(0,5,0);
     x.clock();
     return 0;
 }
