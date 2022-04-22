@@ -11,9 +11,9 @@
 #include <unistd.h>
 using std::string;
 char msg[10005];
-struct time {
+struct Time {
     int h,m,s;
-    time(int hour,int min,int sec) {
+    Time(int hour,int min,int sec) {
         h = hour;
         m = min;
         s = sec;
@@ -46,7 +46,7 @@ int main() {
     }
     CONSOLE_CURSOR_INFO cursor_info = {1,0}; 
     SetConsoleCursorInfo(GetStdHandle(STD_OUTPUT_HANDLE),&cursor_info);
-    time x(0,5,0);
+    Time x(0,5,0);
     x.clock();
     return 0;
 }
