@@ -1,6 +1,6 @@
 # Count-down
 
-A small count down program made by C++ / Python.
+A count down program made by C++.
 
 **English** | [简体中文](./README.zh-Hans.md)
 

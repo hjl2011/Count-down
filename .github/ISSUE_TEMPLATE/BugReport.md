@@ -12,6 +12,8 @@ Screenshot (If any):
 
 Terminal Output (If any):
 
+Logs File (If any):
+
 Program Version:
 
 Operating System Version:
