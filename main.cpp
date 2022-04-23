@@ -3,11 +3,12 @@
     Version : 1.3.2-alpha
     Date : 2022-04-23
 
+    VER 1.3.2-alpha
     -- 重命名
-      : main.cc -> main.cpp
+     : main.cc -> main.cpp
     -? 更新了 README.md 文件
-      : 编译方式
-      : 只更新了简体中文，这个蒟蒻英语太差
+     : 编译方式
+     : 只更新了简体中文，这个蒟蒻英语太差
 */
 #include <stdio.h>
 #include <string>
