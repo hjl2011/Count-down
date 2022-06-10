@@ -9,4 +9,3 @@ A count down program made by C++.
 | <img src="https://avatars.githubusercontent.com/u/100132650?v=4" width="60px"></br> h2qwq | <img src="https://avatars.githubusercontent.com/u/66284192?v=4" width="60px"></br> xkh01 |
 | :---: | :---: |
 | ![](https://shields.io/badge/Coding-green?logo=visual-studio-code&style=for-the-badge)<br>![](https://shields.io/badge/BugTester-yellow?logo=open-bug-bounty&style=for-the-badge) | ![](https://shields.io/badge/Coding-green?logo=visual-studio-code&style=for-the-badge)<br>![](https://shields.io/badge/BugTester-yellow?logo=open-bug-bounty&style=for-the-badge) |
-
